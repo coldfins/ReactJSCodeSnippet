@@ -1,0 +1,110 @@
+.component-introduction-modal {
+  background-color: $base-purple;
+  font-family: 'Roboto', sans-serif !important;
+  height: 100%;
+
+  .block {
+    color: $md-white-base;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: auto;
+  }
+
+  .scaffold {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .close-button {
+    align-self: flex-end;
+  }
+
+  .logo {
+    margin-bottom: 100px;
+  }
+
+  .texts-container {
+    margin: 40px;
+
+    p {
+      font-size: 1.6rem;
+      font-weight: 600;
+      line-height: 1.2em;
+      margin-bottom: 10px 25px;
+    }
+
+    .thin {
+      color: $md-white-base;
+      font-family: 'Roboto-Light', sans-serif !important;
+    }
+  }
+
+  .next-button {
+    align-self: stretch;
+    border-radius: 5px !important;
+    height: auto !important;
+    margin: 20px auto;
+    width: 85%;
+
+    button {
+      background-color: $md-white-base !important;
+      border-radius: 5px !important;
+      height: auto !important;
+
+      div {
+        div { // sass-lint:disable-line nesting-depth
+          color: $base-purple !important;
+          font-size: 1.6rem;
+          height: auto !important;
+          padding: 15px 0 !important;
+
+          svg { // sass-lint:disable-line nesting-depth
+            color: $base-purple !important;
+          }
+        }
+      }
+    }
+
+    span {
+      color: $base-purple !important;
+      cursor: pointer !important;
+      font-size: 25px !important;
+      font-weight: normal !important;
+      text-transform: none !important;
+    }
+  }
+
+  .right-icon {
+    height: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 20px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .component-introduction-modal {
+    height: 70vh;
+
+    .close-button {
+      margin-top: 0 !important;
+    }
+
+    .texts-container {
+      padding: 30px;
+
+      p {
+        font-size: 1.9rem;
+      }
+    }
+
+    .next-button {
+      width: 65%;
+    }
+  }
+}

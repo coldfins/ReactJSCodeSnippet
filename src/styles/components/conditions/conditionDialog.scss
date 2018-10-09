@@ -1,0 +1,125 @@
+.component-card-dialog {
+  .card-modal-title {
+    background-color: $md-white-base !important;
+    border-bottom: 1px solid $md-grey-400;
+    border-radius: 5px 5px 0 0;
+    height: auto !important;
+    line-height: 0 !important;
+    margin: 10px;
+    padding: 0 25px !important;
+
+    h2 {
+      font-size: 2rem;
+      margin: 15px 0 0;
+    }
+
+    button {
+      height: auto !important;
+      width: auto !important;
+    }
+
+    .material-icons {
+      font-size: 3rem !important;
+    }
+  }
+
+  .dialog-body {
+    padding: 0 25px !important;
+
+    h4 {
+      letter-spacing: 1.3px;
+      margin-top: 30px;
+    }
+
+    ul {
+      margin-left: 30px;
+    }
+
+    .solo-heading {
+      color: $md-grey-700;
+      font-size: 15px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    .consideration-container {
+      margin: 20px 0;
+      padding: 0 10px !important;
+    }
+
+    .consideration-title {
+      color: $md-black-base;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 20px;
+      margin-top: 10px;
+    }
+
+    .considerations-description {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .video-container {
+      display: flex;
+      height: auto !important;
+      justify-content: center;
+      margin-top: 25px;
+    }
+
+    .video-player {
+      margin-top: 25px;
+    }
+
+    .thumbnail-image {
+      height: 200px;
+      margin-top: 25px;
+      width: 100%;
+    }
+  }
+
+  .actions-container {
+    box-shadow: 0 0 10px 0 $card-box-shadow-color;
+
+    .proceed-btn {
+      border-radius: 5px !important;
+      height: auto !important;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+
+      button {
+        background-color: $base-purple !important;
+        border-radius: 5px !important;
+        height: auto !important;
+
+        div { // sass-lint:disable-line nesting-depth
+          div { // sass-lint:disable-line nesting-depth
+            height: auto !important;
+            padding: 15px 0 !important;
+          }
+        }
+
+        span { // sass-lint:disable-line nesting-depth
+          color: $md-white-base !important;
+        }
+      }
+
+      span {
+        cursor: pointer !important;
+        font-size: 1.2rem !important;
+        font-weight: 500 !important;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .component-card-dialog {
+    .dialog-body {
+      .thumbnail-image {
+        height: 350px !important;
+      }
+    }
+  }
+}

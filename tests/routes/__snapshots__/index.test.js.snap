@@ -1,0 +1,1402 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Routes /> renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Routes
+    history={Object {}}
+    location={
+      Object {
+        "pathname": "",
+      }
+    }
+    match={Object {}}
+    showCTA={false}
+    showCTAAction={[Function]}
+    showQuestionnaire={false}
+    showQuestionnaireAction={[Function]}
+    showQuestionnaireIntro={false}
+    showQuestionnaireIntroAction={[Function]}
+    store={
+      Object {
+        "getState": [Function],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="inner-container"
+      >
+        <Container
+          className="sticky-container"
+        >
+          <Sticky
+            bottomOffset={0}
+            disableCompensation={false}
+            disableHardwareAcceleration={false}
+            relative={false}
+            topOffset={0}
+          >
+            [Function]
+          </Sticky>
+          <Switch>
+            <PropsRoute
+              component={[Function]}
+              exact={true}
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedconditions/:id"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedconditions"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedconfirmation"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedcontact"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefineddisclaimer"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefineddirections"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedfaq"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedmedical-help"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedmedical-release"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedprovider-faq"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedproviders"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedprivacy"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedresult"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedschedule"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedtreatments"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedterms-conditions"
+            />
+            <PropsRoute
+              component={[Function]}
+            />
+          </Switch>
+          <Introduction
+            onNext={[Function]}
+            onRequestClose={[Function]}
+            open={false}
+          />
+          <QuestionnaireModal
+            advance={[Function]}
+            onRequestClose={[Function]}
+            open={false}
+          />
+          <Connect(Footer) />
+        </Container>
+      </div>,
+      "className": "component-routes",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Container
+          className="sticky-container"
+        >
+          <Sticky
+            bottomOffset={0}
+            disableCompensation={false}
+            disableHardwareAcceleration={false}
+            relative={false}
+            topOffset={0}
+          >
+            [Function]
+          </Sticky>
+          <Switch>
+            <PropsRoute
+              component={[Function]}
+              exact={true}
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedconditions/:id"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedconditions"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedconfirmation"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedcontact"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefineddisclaimer"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefineddirections"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedfaq"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedmedical-help"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedmedical-release"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedprovider-faq"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedproviders"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedprivacy"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedresult"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedschedule"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedtreatments"
+            />
+            <PropsRoute
+              component={[Function]}
+              path="undefinedterms-conditions"
+            />
+            <PropsRoute
+              component={[Function]}
+            />
+          </Switch>
+          <Introduction
+            onNext={[Function]}
+            onRequestClose={[Function]}
+            open={false}
+          />
+          <QuestionnaireModal
+            advance={[Function]}
+            onRequestClose={[Function]}
+            open={false}
+          />
+          <Connect(Footer) />
+        </Container>,
+        "className": "inner-container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Sticky
+              bottomOffset={0}
+              disableCompensation={false}
+              disableHardwareAcceleration={false}
+              relative={false}
+              topOffset={0}
+            >
+              [Function]
+            </Sticky>,
+            <Switch>
+              <PropsRoute
+                component={[Function]}
+                exact={true}
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedconditions/:id"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedconditions"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedconfirmation"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedcontact"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefineddisclaimer"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefineddirections"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedfaq"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedmedical-help"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedmedical-release"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedprovider-faq"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedproviders"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedprivacy"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedresult"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedschedule"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedtreatments"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedterms-conditions"
+              />
+              <PropsRoute
+                component={[Function]}
+              />
+            </Switch>,
+            <Introduction
+              onNext={[Function]}
+              onRequestClose={[Function]}
+              open={false}
+            />,
+            <QuestionnaireModal
+              advance={[Function]}
+              onRequestClose={[Function]}
+              open={false}
+            />,
+            false,
+            <Connect(Footer) />,
+          ],
+          "className": "sticky-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bottomOffset": 0,
+              "children": [Function],
+              "disableCompensation": false,
+              "disableHardwareAcceleration": false,
+              "relative": false,
+              "topOffset": 0,
+            },
+            "ref": null,
+            "rendered": [Function],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <PropsRoute
+                  component={[Function]}
+                  exact={true}
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedconditions/:id"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedconditions"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedconfirmation"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedcontact"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefineddisclaimer"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefineddirections"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedfaq"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedmedical-help"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedmedical-release"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedprovider-faq"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedproviders"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedprivacy"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedresult"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedschedule"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedtreatments"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedterms-conditions"
+                />,
+                <PropsRoute
+                  component={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedconditions/:id",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedconditions",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedconfirmation",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedcontact",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefineddisclaimer",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefineddirections",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedfaq",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedmedical-help",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedmedical-release",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedprovider-faq",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedproviders",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedprivacy",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedresult",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedschedule",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedtreatments",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                  "path": "undefinedterms-conditions",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "component": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "onNext": [Function],
+              "onRequestClose": [Function],
+              "open": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "advance": [Function],
+              "onRequestClose": [Function],
+              "open": false,
+              "questionnaireId": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="inner-container"
+        >
+          <Container
+            className="sticky-container"
+          >
+            <Sticky
+              bottomOffset={0}
+              disableCompensation={false}
+              disableHardwareAcceleration={false}
+              relative={false}
+              topOffset={0}
+            >
+              [Function]
+            </Sticky>
+            <Switch>
+              <PropsRoute
+                component={[Function]}
+                exact={true}
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedconditions/:id"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedconditions"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedconfirmation"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedcontact"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefineddisclaimer"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefineddirections"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedfaq"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedmedical-help"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedmedical-release"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedprovider-faq"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedproviders"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedprivacy"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedresult"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedschedule"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedtreatments"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedterms-conditions"
+              />
+              <PropsRoute
+                component={[Function]}
+              />
+            </Switch>
+            <Introduction
+              onNext={[Function]}
+              onRequestClose={[Function]}
+              open={false}
+            />
+            <QuestionnaireModal
+              advance={[Function]}
+              onRequestClose={[Function]}
+              open={false}
+            />
+            <Connect(Footer) />
+          </Container>
+        </div>,
+        "className": "component-routes",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Container
+            className="sticky-container"
+          >
+            <Sticky
+              bottomOffset={0}
+              disableCompensation={false}
+              disableHardwareAcceleration={false}
+              relative={false}
+              topOffset={0}
+            >
+              [Function]
+            </Sticky>
+            <Switch>
+              <PropsRoute
+                component={[Function]}
+                exact={true}
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedconditions/:id"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedconditions"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedconfirmation"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedcontact"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefineddisclaimer"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefineddirections"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedfaq"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedmedical-help"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedmedical-release"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedprovider-faq"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedproviders"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedprivacy"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedresult"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedschedule"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedtreatments"
+              />
+              <PropsRoute
+                component={[Function]}
+                path="undefinedterms-conditions"
+              />
+              <PropsRoute
+                component={[Function]}
+              />
+            </Switch>
+            <Introduction
+              onNext={[Function]}
+              onRequestClose={[Function]}
+              open={false}
+            />
+            <QuestionnaireModal
+              advance={[Function]}
+              onRequestClose={[Function]}
+              open={false}
+            />
+            <Connect(Footer) />
+          </Container>,
+          "className": "inner-container",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Sticky
+                bottomOffset={0}
+                disableCompensation={false}
+                disableHardwareAcceleration={false}
+                relative={false}
+                topOffset={0}
+              >
+                [Function]
+              </Sticky>,
+              <Switch>
+                <PropsRoute
+                  component={[Function]}
+                  exact={true}
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedconditions/:id"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedconditions"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedconfirmation"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedcontact"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefineddisclaimer"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefineddirections"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedfaq"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedmedical-help"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedmedical-release"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedprovider-faq"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedproviders"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedprivacy"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedresult"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedschedule"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedtreatments"
+                />
+                <PropsRoute
+                  component={[Function]}
+                  path="undefinedterms-conditions"
+                />
+                <PropsRoute
+                  component={[Function]}
+                />
+              </Switch>,
+              <Introduction
+                onNext={[Function]}
+                onRequestClose={[Function]}
+                open={false}
+              />,
+              <QuestionnaireModal
+                advance={[Function]}
+                onRequestClose={[Function]}
+                open={false}
+              />,
+              false,
+              <Connect(Footer) />,
+            ],
+            "className": "sticky-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bottomOffset": 0,
+                "children": [Function],
+                "disableCompensation": false,
+                "disableHardwareAcceleration": false,
+                "relative": false,
+                "topOffset": 0,
+              },
+              "ref": null,
+              "rendered": [Function],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <PropsRoute
+                    component={[Function]}
+                    exact={true}
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedconditions/:id"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedconditions"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedconfirmation"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedcontact"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefineddisclaimer"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefineddirections"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedfaq"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedmedical-help"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedmedical-release"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedprovider-faq"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedproviders"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedprivacy"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedresult"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedschedule"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedtreatments"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                    path="undefinedterms-conditions"
+                  />,
+                  <PropsRoute
+                    component={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedconditions/:id",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedconditions",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedconfirmation",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedcontact",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefineddisclaimer",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefineddirections",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedfaq",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedmedical-help",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedmedical-release",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedprovider-faq",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedproviders",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedprivacy",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedresult",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedschedule",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedtreatments",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "undefinedterms-conditions",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "component": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "onNext": [Function],
+                "onRequestClose": [Function],
+                "open": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "advance": [Function],
+                "onRequestClose": [Function],
+                "open": false,
+                "questionnaireId": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

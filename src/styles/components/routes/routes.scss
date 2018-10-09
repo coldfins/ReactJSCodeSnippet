@@ -1,0 +1,121 @@
+.component-routes {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .inner-container {
+    width: 100%;
+  }
+
+  .sticky-app-bar {
+    background-color: $md-white-base;
+    transition: background-color ease-in-out .2s;
+    z-index: 2;
+
+    &.blend {
+      background-color: $semi-opaque-white;
+    }
+  }
+
+  .app-bar {
+    background: none !important;
+
+    .action-button {
+      color: $base-purple !important;
+      font-size: 14px;
+      font-weight: bold;
+      margin-left: 5px;
+    }
+
+    .logo {
+      height: 50px;
+      margin: 0 30px 0 20px;
+      width: 150px;
+    }
+
+    .trending-icon {
+      color: $base-purple !important;
+    }
+
+    .right-container {
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 5px;
+    }
+
+    .right-icon {
+      height: 30px;
+      padding: 0;
+      width: 15px;
+    }
+
+    .title-text {
+      font-size: 14px;
+    }
+
+    .app-bar-tab-buttons {
+      margin-left: 10px;
+
+      .nav-button {
+        color: $base-purple !important;
+      }
+    };
+  }
+
+  .nav-bar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .component-routes {
+    .right-container {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .component-routes {
+    .right-container {
+      display: flex;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .component-routes {
+    .app-bar-left {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .nav-bar {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+    }
+
+    .nav-link {
+      a {
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color ease-in-out .2s;
+
+        &:link,
+        &:visited {
+          color: $base-purple;
+        }
+
+        &:hover {
+          color: $secondary-purple;
+        }
+      }
+    }
+  }
+}

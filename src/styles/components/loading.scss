@@ -1,0 +1,27 @@
+.component-loading {
+  align-items: center;
+  background-color: $md-white-base;
+  color: $md-blue-grey-300;
+  display: flex;
+  font-size: 20px;
+  height: 100%;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 2;
+
+  .spinner {
+    color: $base-purple;
+    height: 50px;
+    width: 50px;
+  }
+
+  .text {
+    color: $md-blue-grey-300;
+    font-size: 20px;
+  }
+}
+  

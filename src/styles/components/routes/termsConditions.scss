@@ -1,0 +1,109 @@
+.component-terms {
+  background-color: $md-white-base;
+
+  .top-container {
+    background-color: $md-grey-100;
+    padding: 35px;
+  }
+
+  .top-inner-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .terms-image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .terms-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    width: 80%;
+  }
+
+  .title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  .sub-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    
+    li {
+      margin: 10px 0px 10px 20px;
+    }
+  }
+
+  .terms-header-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .terms-title-text {
+    font-family: 'Roboto-medium', sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .top-inner-container {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .top-container {
+    background-color: $md-grey-100;
+    padding: 60px;
+  }
+
+  .top-inner-container {
+    display: flex;
+    flex-direction: row !important;
+    width: 55% !important;
+  }
+
+  .terms-image {
+    height: 200px !important;
+    width: 200px !important;
+  }
+
+  .header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px !important;
+    font-weight: bold;
+    margin-bottom: auto;
+    margin-left: 60px;
+    margin-top: auto;
+  }
+
+  .terms-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 60% !important;
+  }
+}

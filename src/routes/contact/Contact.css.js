@@ -1,0 +1,156 @@
+import {
+  black,
+  blue200,
+  grey100,
+  grey300,
+  grey400,
+  grey600,
+  grey700,
+  white,
+  blueGrey600,
+  transparent,
+} from 'material-ui/styles/colors';
+
+const styles = {
+  backButton: {
+    backgroundColor: grey300,
+    borderRadius: 0,
+    color: grey600,
+    height: 50,
+    marginTop: 20,
+    width: '100%',
+  },
+  bottomContainer: {
+    '@media screen and (min-width: 500px)': /* Tablet */ {
+      width: '20%',
+    },
+    '@media screen and (min-width: 980px)': /* Desktop */ {
+      bottom: 18,
+      width: '20%',
+    },
+    bottom: 0,
+    display: 'flex',
+    flexDirection: 'row',
+    position: 'absolute',
+    width: '100%',
+  },
+  buttonBack: {
+    '@media screen and (min-width: 980px)': /* Desktop */ {
+      marginRight: 10,
+    },
+    width: '100%',
+  },
+  buttonNext: {
+    width: '100%',
+  },
+  checkoutButton: {
+    textAlign: 'center',
+  },
+  color: {
+    color: blueGrey600,
+  },
+  errorText: {
+    borderColor: transparent,
+    bottom: '-1.9rem',
+    position: 'absolute',
+  },
+  innerContainer: {
+    '@media screen and (min-width: 500px)': /* Tablet */ {
+      width: '50%',
+    },
+    '@media screen and (min-width: 980px)': /* Desktop */ {
+      width: '30%',
+    },
+    alignItems: 'center',
+    height: window.innerHeight - 125,
+    justifyContent: 'center',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    overflow: 'auto',
+    paddingTop: 20,
+    textAlign: 'center',
+    width: '90%',
+  },
+  input: {
+    backgroundColor: 'white',
+    border: '1px solid',
+    borderColor: grey300,
+    borderRadius: 2,
+    fontSize: 14,
+    marginTop: 15,
+    paddingLeft: 15,
+    width: '100%',
+  },
+  inputContainer: {
+    alignItems: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    margin: '0 auto',
+    marginTop: 10,
+    textAlign: 'center',
+    width: '80%',
+  },
+  mainContainer: {
+    alignItems: 'center',
+    backgroundColor: grey100,
+    display: 'flex',
+    flexDirection: 'column',
+    height: window.innerHeight - 64,
+    position: 'relative',
+  },
+  noteHint: {
+    top: 12,
+  },
+  payButtonDisabled: {
+    backgroundColor: grey400,
+    borderRadius: 0,
+    color: white,
+    height: 50,
+    marginTop: 20,
+    width: '100%',
+  },
+  payButtonStyle: {
+    backgroundColor: blue200,
+    borderRadius: 0,
+    color: white,
+    height: 50,
+    marginTop: 20,
+    width: '100%',
+  },
+  seperator: {
+    '@media screen and (min-width: 980px)': /* Desktop */ {
+      backgroundColor: grey300,
+      height: 2,
+      marginBottom: 90,
+      width: '100%',
+    },
+  },
+  terms: {
+    bottom: 50,
+    color: grey700,
+    fontFamily: 'Roboto',
+    fontSize: 12,
+    height: 50,
+    paddingBottom: 10,
+    paddingTop: 10,
+    textAlign: 'center',
+    width: '100%',
+  },
+  titleText: {
+    alignItems: 'center',
+    color: black,
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    fontFamily: 'Roboto',
+    fontSize: 22,
+    fontWeight: 'normal',
+    height: 85,
+    justifyContent: 'center',
+    textAlign: 'center',
+    width: '100%',
+  },
+};
+
+export default styles;

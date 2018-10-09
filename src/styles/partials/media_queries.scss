@@ -1,0 +1,29 @@
+// this should only contain global media queries
+
+@media screen and (min-width: 980px) {
+  .up-arrow {
+    &::before {
+      border: 10px solid transparent;
+      border-bottom-color: $md-cyan-900;
+      bottom: 100%;
+      content: '';
+      display: block;
+      height: 0;
+      left: 90.7%;
+      position: absolute;
+      width: 0;
+    }
+
+    &::after {
+      border: 9px solid transparent;
+      border-bottom-color: $md-white-base;
+      bottom: 100%;
+      content: '';
+      display: block;
+      height: 0;
+      left: 91.1%;
+      position: absolute;
+      width: 0;
+    }
+  }
+}

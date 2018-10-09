@@ -1,0 +1,146 @@
+.footer-container {
+  align-items: center;
+  background-color: $md-blue-grey-900;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.footer-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  width: 80%;
+}
+
+.footer-title {
+  color: $md-white-base;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.footer-sub-text {
+  color: $md-grey-600;
+  font-weight: 300;
+  margin-left: 0;
+  margin-top: 15px;
+}
+
+.copyright-text {
+  align-items: center;
+  color: $md-white-base;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer-message-text {
+  color: $md-white-base;
+  font-size: 12px;
+}
+
+.footer-logo {
+  height: 50px;
+  margin-top: 20px;
+  width: 150px;
+}
+
+.input-group {
+  align-items: stretch;
+  background-color: $md-white-base;
+  border-radius: .25rem;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.form-control {
+  @include box-shadow(.15s ease-in-out);
+
+  background-clip: padding-box;
+  background-color: $md-white-base;
+  border: 1px solid $md-grey-200;
+  border-radius: .25rem;
+  color: $md-grey-600;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: .375rem .75rem;
+  transition: border-color .15s ease-in-out;
+  width: 30% !important;
+}
+
+.input-group-append {
+  height: 48px;
+  margin-left: -1px;
+  margin-top: 0;
+}
+
+.input-group-text {
+  align-items: center;
+  background-color: $base-purple;
+  border: 1px solid $md-blue-grey-100;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  color: $md-grey-600;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 1.5;
+  margin-bottom: 0;
+  padding: .375rem .75rem;
+  text-align: center;
+  white-space: nowrap;
+  width: 60px;
+}
+
+.right-icon {
+  height: 38px !important;
+}
+
+@media screen and (min-width: 980px) {
+  .footer-container {
+    background-color: $md-white-base !important;
+  }
+
+  .footer-inner-container {
+    flex-direction: row !important;
+  }
+
+  .footer-title {
+    color: $md-black-base !important;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px !important;
+  }
+
+  .footer-sub-text {
+    color: $md-grey-600 !important;
+  }
+
+  .copyright-text {
+    color: $md-grey-700 !important;
+  }
+
+  .footer-row {
+    margin-left: 45px;
+    margin-right: 50px;
+  }
+
+  .right-icon {
+    height: 40px !important;
+  }
+
+  .footer-message-text {
+    color: $md-black-base;
+  }
+}

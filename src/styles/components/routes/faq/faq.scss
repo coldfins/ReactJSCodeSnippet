@@ -1,0 +1,108 @@
+.component-faq {
+  display: block;
+  margin: auto;
+  max-width: 1100px;
+  padding: 50px 0;
+
+  .expansion-panel {
+    padding: 10px 0;
+  }
+
+  .faq-header {
+    display: block;
+    margin: auto;
+    padding: 30px 10px;
+  }
+
+  .faq-header-texts {
+    text-align: center;
+  }
+
+  .faq-logo {
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  .faq-title {
+    color: $navy-blue;
+    display: block;
+    font-weight: 700;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  .faq-subtitle {
+    color: $navy-blue;
+    display: block;
+    font-size: 1.3rem;
+    margin: auto;
+  }
+
+  .panel-title {
+    .md-text {
+      color: $md-grey-500;
+      letter-spacing: .13rem;
+      line-height: 1.2em;
+      padding-right: 20px;
+      transition: color ease-in-out .2s;
+    }
+
+    .md-icon {
+      color: $md-grey-400;
+    }
+
+    &:hover {
+      .md-text {
+        color: $md-deep-purple-600;
+      }
+    }
+  }
+
+  .panel-text {
+    line-height: 2em;
+  }
+
+  .md-expansion-panel-list {
+    .md-paper {
+      box-shadow: none;
+    }
+
+    .expansion-panel {
+      border-top: 1px solid $md-grey-250;
+    }
+
+    &:last-child {
+      border-bottom: 1px solid $md-grey-250;
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .component-faq {
+    .faq-header {
+      display: flex;
+      margin-bottom: 80px;
+      width: 940px;
+    }
+
+    .faq-logo {
+      padding-right: 70px;
+      width: 220px;
+    }
+
+    .faq-header-texts {
+      text-align: left;
+    }
+
+    .faq-title {
+      font-size: 3.6rem;
+      margin-top: 50px;
+    }
+
+    .faq-subtitle {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+  }
+}

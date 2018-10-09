@@ -1,0 +1,13 @@
+.component-inline-loading {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+
+  .spinner {
+    color: $base-purple;
+    height: 50px;
+    width: 50px;
+  }
+}

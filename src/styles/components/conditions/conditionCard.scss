@@ -1,0 +1,73 @@
+.component-card-container {
+  background-clip: border-box;
+  background-color: $md-white-base;
+  border: 1px solid $card-border-color;
+  border-radius: .25rem;
+  display: flex;
+  flex-direction: column;
+  margin: 28px 10px 0;
+  min-width: 0;
+  padding: 10px;
+  position: relative;
+  word-wrap: break-word;
+
+  &:hover {
+    border: 1px solid $card-border-hover-color;
+    box-shadow: 0 13px 17px -11px $card-shadow-hover-color;
+    transform: translateY(-2px);
+  }
+
+  .card-effect {
+    border: 1px solid transparent;
+    position: relative;
+    transform: translateY(0);
+    transition: transform ease-in-out .4s;
+  }
+
+  .outer-card {
+    box-shadow: none !important;
+    padding: 40px 20px;
+  }
+
+  .inner-card {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+  }
+
+  .card-image {
+    border-radius: 50%;
+    height: 110px;
+    margin-bottom: 10px;
+    width: 110px;
+  }
+
+  .card-sub-text {
+    color: $md-grey-800;
+    letter-spacing: 2px;
+    padding: 0 !important;
+  }
+
+  .card-risk-text {
+    background-color: $md-grey-100;
+    font-weight: 400;
+    padding: 8px;
+  }
+
+  .card-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .card-description-text {
+    color: $md-grey-600;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .component-card-container {
+    margin: 10px !important;
+  }
+}

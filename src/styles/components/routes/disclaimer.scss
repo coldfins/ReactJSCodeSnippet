@@ -1,0 +1,50 @@
+.component-disclaimer {
+  display: block;
+  margin: auto;
+  max-width: 1100px;
+  padding: 30px 0;
+
+  .disclaimer-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .disclaimer-icon {
+      margin-bottom: 25px;
+    }
+  }
+
+  .texts-container {
+    .texts {
+      font-size: 1.6rem;
+      padding: 40px;
+    }
+
+    .red-box {
+      background-color: $dull-red;
+
+      .texts {
+        color: $md-white-base;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .component-disclaimer {
+    .disclaimer-header {
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 50px;
+
+      .disclaimer-icon {
+        margin-right: 50px;
+        width: 210px;
+      }
+
+      .disclaimer-title {
+        font-size: 5rem;
+      }
+    }
+  }
+}

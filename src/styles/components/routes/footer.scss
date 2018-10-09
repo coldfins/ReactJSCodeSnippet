@@ -1,0 +1,17 @@
+.component-footer {
+  .footer-link {
+    color: $md-grey-600;
+    transition: color ease-in-out .15s;
+
+    &:link,
+    &:visited {
+      color: $md-grey-600;
+      text-decoration: none;
+    }
+
+    &:hover {
+      color: $md-grey-500;
+      text-decoration: none;
+    }
+  }
+}

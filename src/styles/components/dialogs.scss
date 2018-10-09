@@ -1,0 +1,9 @@
+.component-card-dialog {
+  &>div>div>div {
+    border-radius: 5px !important;
+
+    &>div {
+      padding: 0 !important;
+    }
+  }
+}

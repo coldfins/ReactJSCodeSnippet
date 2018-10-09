@@ -1,0 +1,29 @@
+.component-paginated-item {
+  .fixed-table--viewport {
+    @include react-md-make-fixed-table(true);
+  }
+
+  .paginate-table {
+    &>div {
+      padding-top: 0;
+    }
+  }
+
+  .paginate-table-paginator {
+    .md-icon-text {
+      font-size: 1.2rem;
+    }
+
+    .md-list-tile {
+      padding: 0;
+    }
+
+    .md-text {
+      font-size: 1.2rem;
+    }
+  }
+
+  .md-select-field__toggle { // sass-lint:disable-line class-name-format
+    margin: 0 10px;
+  }
+}
