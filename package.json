@@ -31,7 +31,7 @@
     "material-ui": "^0.20.1",
     "merge": "^1.2.1",
     "mime": "^2.4.4",
-    "moment": "^2.18.1",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.13",
     "object-assign": "^4.1.1",
     "promise": "^8.0.1",
